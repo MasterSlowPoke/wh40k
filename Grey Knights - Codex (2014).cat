@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="987d0372-0952-75b7-886f-6ef3ba934216" revision="8" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.14b" name="Grey Knights: Codex (2014)" authorName="BSData on GitHub" authorContact="@BSData" authorUrl="https://github.com/BSData/wh40k#warhammer-40000" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="987d0372-0952-75b7-886f-6ef3ba934216" revision="12" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Grey Knights: Codex (2014)" authorName="BSData on GitHub" authorContact="@BSData" authorUrl="https://github.com/BSData/wh40k#warhammer-40000" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -124,6 +124,9 @@
       <modifiers/>
     </link>
     <link id="96cbba2f-44c9-8fbf-d562-644f0accee28" targetId="33f7341f-8ce0-58ff-caba-4a1978cde201" linkType="entry" categoryId="c888f08a-6cea-4a01-8126-d374a9231554">
+      <modifiers/>
+    </link>
+    <link id="732b03dc-3851-8174-f08e-b06a582c1f2b" targetId="6a3b4b61-a426-93d7-6cf0-76df7f7602f7" linkType="entry" categoryId="c274d0b0-5866-44bc-9810-91c136ae7438">
       <modifiers/>
     </link>
   </links>
@@ -791,6 +794,100 @@ However, for every dice re-rolled using this rule, your opponent can re-roll one
         </link>
       </links>
     </entry>
+    <entry id="f052afe2-38ba-318c-7f60-01b3b6d8aca3" name="Cerastus Knight-Acheron" points="415.0" categoryId="c888f08a-6cea-4a01-8126-d374a9231554" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="ca449862-932c-4fe8-65b2-df63fc07aade" name="Ion Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="0bf8ac1c-4aa9-d1ef-5ffb-37732369b649" name="Ion Shield" hidden="false">
+              <description>When a Knight is deployed, and subsequently at the start of each of the opposing side’s Shooting phases, the Knight’s controlling player must declare which facing each Knight’s ion shield is covering. The choices are: front, left side, right side or rear.
+The Knight has a 4+ invulnerable save against all hits on that facing until the start of the opposing side’s next Shooting phase. Ion shields are repositioned before any attacks are carried out in the Shooting phase and may not be used to make saving throws against close combat attacks.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="4bbbc248-61ed-e0da-1c1f-58cc113414c0" name="Acheron Pattern Flame Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="eada6618-22c3-b1ee-497d-292c482d9427" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Acheron Pattern Flame Cannon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Hellstorm"/>
+                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="7"/>
+                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
+                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Ordnance 1"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="fc36b93c-2784-03a5-7017-581200c7b098" name="Reaper Chainfist with an inbuilt Twin-linked Heavy Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="4adb2308-22eb-5d5a-e06c-488fd32aa4a6" name="Machine Destroyer" hidden="false">
+              <description>When attacking any target with an Armour value, rolls of 1 on the Destroyer Damage table may be re-rolled.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="572490b8-ea45-ae7a-d2ec-a11f4653679f" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Reaper Chainfist" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="D"/>
+                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Machine Destroyer"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="1deb8c7f-a3c6-5668-0936-07fb450d423f" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Heavy Bolter" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36&quot;"/>
+                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 3"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0ee702de-b65d-2a9b-95d0-4c8419471c07" name="Flank Speed" hidden="false">
+          <description>If the Cerastus Knight-Acheron opts to make a Run move rather than firing a weapon in the Shooting phase, it may move 3D6&quot;.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f0165c62-77bd-2ab3-49eb-94c8ee19ad40" profileTypeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" name="Cerastus Knight-Acheron" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="4"/>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
+            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="10"/>
+            <characteristic characteristicId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" name="Front" value="13"/>
+            <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="12"/>
+            <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="12"/>
+            <characteristic characteristicId="a558b3ef-04d0-440e-a312-bac3255bf592" name="I" value="4"/>
+            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="4"/>
+            <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="6"/>
+            <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Vehicle (Super-heavy Walker)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="dd923150-7811-a990-7b08-6a7cb936294f" name="Cerastus Knight-Castigator" points="380.0" categoryId="c888f08a-6cea-4a01-8126-d374a9231554" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="b2bd84d6-772c-855d-6fee-4b1d8a70c0d5" name="Twin-linked Castigator pattern Bolt cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1294,7 +1391,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
       <profiles/>
       <links/>
     </entry>
-    <entry id="b00b8d28-a761-4220-23eb-68e29f252d1e" name="Fighter Ace" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crusade of Fire" page="80">
+    <entry id="b00b8d28-a761-4220-23eb-68e29f252d1e" name="Fighter Ace" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Shield of Baal : Leviathan">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2253,18 +2350,6 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
             </link>
           </links>
         </entry>
-        <entry id="2a8e6ccf-4221-0c5e-9f62-40387c529f82" name="Twin-linked Heavy Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="8b266526-69f3-fbe4-5cc4-a98e93534341" targetId="43ac4341-8716-d9e2-996a-1708eb4e2dd4" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="a6b5b4b4-8330-60d1-7376-fa75fa2e5399" name="Frag assault launchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Grey Knights" page="36">
           <entries/>
           <entryGroups/>
@@ -2272,6 +2357,18 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
           <rules/>
           <profiles/>
           <links/>
+        </entry>
+        <entry id="079c-ae51-7d89-c3ac" name="Twin-linked assault cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="85ac-3992-b2ee-e53f" targetId="93b3d560-5d10-e7f7-9e04-77512350e384" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups/>
@@ -6187,100 +6284,6 @@ These effects last until the Warlord&apos;s next turn.</description>
         </link>
       </links>
     </entry>
-    <entry id="f052afe2-38ba-318c-7f60-01b3b6d8aca3" name="Cerastus Knight-Acheron" points="415.0" categoryId="c888f08a-6cea-4a01-8126-d374a9231554" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="ca449862-932c-4fe8-65b2-df63fc07aade" name="Ion Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="0bf8ac1c-4aa9-d1ef-5ffb-37732369b649" name="Ion Shield" hidden="false">
-              <description>When a Knight is deployed, and subsequently at the start of each of the opposing side’s Shooting phases, the Knight’s controlling player must declare which facing each Knight’s ion shield is covering. The choices are: front, left side, right side or rear.
-The Knight has a 4+ invulnerable save against all hits on that facing until the start of the opposing side’s next Shooting phase. Ion shields are repositioned before any attacks are carried out in the Shooting phase and may not be used to make saving throws against close combat attacks.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="4bbbc248-61ed-e0da-1c1f-58cc113414c0" name="Acheron Pattern Flame Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="eada6618-22c3-b1ee-497d-292c482d9427" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Acheron Pattern Flame Cannon" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Hellstorm"/>
-                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="7"/>
-                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
-                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Ordnance 1"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="fc36b93c-2784-03a5-7017-581200c7b098" name="Reaper Chainfist with an inbuilt Twin-linked Heavy Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="4adb2308-22eb-5d5a-e06c-488fd32aa4a6" name="Machine Destroyer" hidden="false">
-              <description>When attacking any target with an Armour value, rolls of 1 on the Destroyer Damage table may be re-rolled.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="572490b8-ea45-ae7a-d2ec-a11f4653679f" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Reaper Chainfist" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
-                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="D"/>
-                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
-                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Machine Destroyer"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="1deb8c7f-a3c6-5668-0936-07fb450d423f" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Heavy Bolter" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36&quot;"/>
-                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
-                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
-                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 3"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="0ee702de-b65d-2a9b-95d0-4c8419471c07" name="Flank Speed" hidden="false">
-          <description>If the Cerastus Knight-Acheron opts to make a Run move rather than firing a weapon in the Shooting phase, it may move 3D6&quot;.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="f0165c62-77bd-2ab3-49eb-94c8ee19ad40" profileTypeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" name="Cerastus Knight-Acheron" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="4"/>
-            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
-            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="10"/>
-            <characteristic characteristicId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" name="Front" value="13"/>
-            <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="12"/>
-            <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="12"/>
-            <characteristic characteristicId="a558b3ef-04d0-440e-a312-bac3255bf592" name="I" value="4"/>
-            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="4"/>
-            <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="6"/>
-            <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Vehicle (Super-heavy Walker)"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="2f649eec-fbdb-07af-2779-15a6426445d6" name="Banner choice:" defaultEntryId="9a4b746b-c475-e8b7-074d-4912b5374827" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6366,7 +6369,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
             </link>
           </links>
         </entry>
-        <entry id="d8e4f4d9-5a15-2e2e-37a5-0e2dda2f2226" name="Twin-linked heavy bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="d8e4f4d9-5a15-2e2e-37a5-0e2dda2f2226" name="Twin-linked heavy bolter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6378,7 +6381,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
             </link>
           </links>
         </entry>
-        <entry id="60189176-e9c8-6f92-f783-e8386d4368d2" name="Twin-linked heavy flamer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="60189176-e9c8-6f92-f783-e8386d4368d2" name="Twin-linked heavy flamer" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6390,7 +6393,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
             </link>
           </links>
         </entry>
-        <entry id="2b90791b-3560-9042-5f89-af6326aafa02" name="Plasma cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="2b90791b-3560-9042-5f89-af6326aafa02" name="Plasma cannon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6402,7 +6405,7 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
             </link>
           </links>
         </entry>
-        <entry id="739ca3c9-b7a8-2340-6f60-2af0eb40d8da" name="Assault cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="739ca3c9-b7a8-2340-6f60-2af0eb40d8da" name="Assault cannon" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6991,7 +6994,12 @@ If this attempt is succesfully manifested on this character, or his unit, then t
     <rule id="ea48191f-6117-55d3-9561-b43fe2993ba4" name="Feel No Pain" hidden="false">
       <modifiers/>
     </rule>
-    <rule id="6287b24a-c2b7-dfe0-405a-dfdf82491fb3" name="Fighter Ace" hidden="false" book="Death from the Skies" page="0">
+    <rule id="6287b24a-c2b7-dfe0-405a-dfdf82491fb3" name="Fighter Ace" hidden="false" book="Shield of Baal : Leviathan">
+      <description>D6 Result:
+1-2 =&gt; Third Eye: The Fighter Ace has +1 Ballistic Skill.
+3-4 =&gt; Mental Challenge: The Fighter Ace improves any cover save it is entitled to by 1 (up to a maximum cover save of 3+).
+5-6 =&gt; Psychic Pilot: The Fighter Ace has the Psychic Pilot (Mastery Level 1) special rule and generates psychic powers from the Daemonology (Santic) discipline.
+</description>
       <modifiers/>
     </rule>
     <rule id="4c4296f5-ff55-5053-e5a5-31db382b07af" name="Force Shielding" hidden="false" book="Codex: Grey Knights" page="77">

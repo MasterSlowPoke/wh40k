@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4d97de7d-c308-474b-130f-45249f75d138" revision="1" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.14b" name="Astra Militarum: IA04.2 - Elysian Detachment D-99 (2014)" books="" authorName="k" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=5&amp;t=249" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4d97de7d-c308-474b-130f-45249f75d138" revision="5" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Astra Militarum: IA04.2 - Elysian Detachment D-99 (2014)" books="" authorName="k" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="91231c96-4b08-d558-16cb-89e92faedc25" name="Cerastus Knight-Acheron" points="415.0" categoryId="c888f08a-6cea-4a01-8126-d374a9231554" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Acheron.pdf">
       <entries>
@@ -58,7 +58,7 @@
       </entries>
       <entryGroups/>
       <modifiers>
-        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups>
             <conditionGroup type="or">
@@ -135,7 +135,7 @@
       </entries>
       <entryGroups/>
       <modifiers>
-        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups>
             <conditionGroup type="or">
@@ -197,7 +197,7 @@
       </entries>
       <entryGroups/>
       <modifiers>
-        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups>
             <conditionGroup type="or">
@@ -2777,7 +2777,7 @@
         </link>
       </links>
     </entry>
-    <entry id="cfa7cc26-131a-457e-8cff-8f4c627c7dad" name="D-99 Cyclops Demolition Squad" points="60.0" categoryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Imperial Armour IV 2nd Ed" page="111">
+    <entry id="cfa7cc26-131a-457e-8cff-8f4c627c7dad" name="D-99 Cyclops Demolition Squad" points="60.0" categoryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Imperial Armour IV 2nd Ed" page="111">
       <entries>
         <entry id="1f36d403-dd34-2f67-3bc7-18c521005d3c" name="Cyclops Crew" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries>
@@ -2812,6 +2812,15 @@
           <profiles/>
           <links>
             <link id="3ccf9f9c-2a95-f125-afa0-5f616b72880b" targetId="ea2042c0-9b5a-519d-9428-2b53ecc0afe5" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="15cf569b-d8bc-44ac-08c3-0f3270c5eb88" targetId="c8cc1fb5-b56e-bb27-f093-2d08006c2dce" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="47300553-500b-dd4a-0d56-cc9e4a3283f1" targetId="4daf67c3-a62d-2b14-5a33-7e9640f03e4d" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="d7db6056-d758-9655-f14b-0b07807250ca" targetId="d7ffc4f9-91a7-0b7f-fb2e-8f802d9ed7e6" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -2938,6 +2947,9 @@
             <link id="9b8d6d0e-69fa-dc6d-045f-79ce9018c3e6" targetId="ae716543-4d76-2571-3a91-1e57f66692fc" linkType="rule">
               <modifiers/>
             </link>
+            <link id="dd2cab67-4f6d-ba5e-813a-314a94ff3642" targetId="0b5b2a10-a863-3440-5074-4238d27797b5" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entry>
         <entry id="41f32fac-0a2a-0fd5-7e31-db06617522cd" name="Cyclops RC Demolition Vehicle" points="0.0" categoryId="(No Category)" type="model" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Imperial Armour IV 2nd Ed" page="111">
@@ -2972,6 +2984,9 @@
             <link id="f136ceab-b9cc-7b07-f86b-363693a014be" targetId="78a84867-458d-53a4-f106-10c75fa5918e" linkType="rule">
               <modifiers/>
             </link>
+            <link id="6f86dc0e-f7ce-b46e-b632-f39b75f3d9aa" targetId="c8cc1fb5-b56e-bb27-f093-2d08006c2dce" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
       </entries>
@@ -2979,17 +2994,7 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links>
-        <link id="aebf2d96-84fb-74e6-f449-17f1480f8b3d" targetId="c8cc1fb5-b56e-bb27-f093-2d08006c2dce" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a6c1f71d-514b-5e54-4406-79554da2869f" targetId="d7ffc4f9-91a7-0b7f-fb2e-8f802d9ed7e6" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d356c943-4643-86e8-fa0a-43d788d4a256" targetId="4daf67c3-a62d-2b14-5a33-7e9640f03e4d" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="3d854976-ad3d-dd65-3394-2ef16c344e5d" name="D-99 Drop Sentinel Squadron" points="0.0" categoryId="c274d0b0-5866-44bc-9810-91c136ae7438" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Imperial Armour IV 2nd Ed" page="106">
       <entries>
@@ -4842,7 +4847,7 @@
         </entryGroup>
       </entryGroups>
       <modifiers>
-        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups>
             <conditionGroup type="or">
@@ -4865,6 +4870,9 @@
           <modifiers/>
         </link>
         <link id="c68050f8-9b6d-5df7-1bd1-173fa8012fd9" targetId="efbb4676-967d-1ea2-a880-e54906403312" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7c8ba65d-34b2-b21d-3517-de28178e33fe" targetId="0b5b2a10-a863-3440-5074-4238d27797b5" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -4949,7 +4957,7 @@
       </entries>
       <entryGroups/>
       <modifiers>
-        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups>
             <conditionGroup type="or">
@@ -4975,6 +4983,9 @@
           <modifiers/>
         </link>
         <link id="2b27f034-bd71-efc9-9e53-87f6da91f1d8" targetId="efbb4676-967d-1ea2-a880-e54906403312" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f9069212-8d2e-e642-6ebd-4ad865b1a95a" targetId="0b5b2a10-a863-3440-5074-4238d27797b5" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -7323,6 +7334,12 @@
                 <link id="1553ec42-9037-2c67-ab48-fd74b442f39b" targetId="11f1b0c3-1e25-21d3-99ef-5d1b033d5b20" linkType="rule">
                   <modifiers/>
                 </link>
+                <link id="1663c2be-5a53-e72c-fe49-f5d8875312b5" targetId="3e4b7816-ac34-df1d-48f8-7dfdc252b2b0" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="18912003-6351-a625-1205-d44725431081" targetId="0b5b2a10-a863-3440-5074-4238d27797b5" linkType="entry">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
           </entries>
@@ -7368,7 +7385,11 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="553830bf-0979-fee5-0569-e488efacc3c5" targetId="be35e109-ba91-4039-48ca-b84510f7b1cc" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="f40f8b8c-020c-09ef-de30-6b44571ca501" name="Questoris Knight Magaera" points="395.0" categoryId="c888f08a-6cea-4a01-8126-d374a9231554" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Magaera.pdf" page="0">
       <entries>
@@ -7474,7 +7495,7 @@
         </entryGroup>
       </entryGroups>
       <modifiers>
-        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups>
             <conditionGroup type="or">
@@ -7582,6 +7603,18 @@
     </link>
   </links>
   <sharedEntries>
+    <entry id="9d874bf6-4f44-437e-5978-ef80bb9d9426" name="Anomalous Dermal Calcification" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="8ac21a25-3a7e-c186-8e47-cf08b211535b" targetId="3b7aa1a1-3d1a-e956-5171-d57cf152cd2f" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="f6f63227-b4eb-f045-5967-3249f6dc46eb" name="D-99 Valkyrie Airborne Assault Carrier" points="125.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Imperial Armour IV 2nd Ed" page="104">
       <entries>
         <entry id="abce1a2d-1789-8994-9c7e-139350a2c205" name="Extra Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -7704,6 +7737,9 @@
         <link id="56d6e288-0a6e-95fe-435d-15ffacf7eeb0" targetId="ae716543-4d76-2571-3a91-1e57f66692fc" linkType="rule">
           <modifiers/>
         </link>
+        <link id="a3eecb70-40e3-f041-d025-0b443859d7ac" targetId="0b5b2a10-a863-3440-5074-4238d27797b5" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="6b34f02d-aae9-52d4-a428-8c47a8ea0f3e" name="D-99 Valkyrie Sky Talon" points="75.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Imperial Armour IV 2nd Ed" page="106">
@@ -7797,6 +7833,9 @@
         <link id="c5cd816f-8b49-6f99-7455-c5ee46c33da4" targetId="1e20a03b-2fbc-e003-7207-527c0177b79d" linkType="profile">
           <modifiers/>
         </link>
+        <link id="84e507cc-63b7-41cb-93cf-21a7cf58471a" targetId="0b5b2a10-a863-3440-5074-4238d27797b5" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="aa358cdf-087a-1441-a54f-78b1d3076478" name="D-99 Vulture Gunship" points="125.0" categoryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" type="model" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Imperial Armour IV 2nd Ed" page="108">
@@ -7851,7 +7890,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="9799a261-2430-f0a5-7fe7-8f683a562fb8" name="Armament" defaultEntryId="c581e44b-bf04-75fc-dd1c-732ba0c4c9f9" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="9799a261-2430-f0a5-7fe7-8f683a562fb8" name="Armament" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="2eaf7cc5-2f4d-6b7e-242b-c49a805f756a" name="Twin-linked Punisher Gatling Cannon" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
@@ -7865,27 +7904,12 @@
                 </link>
               </links>
             </entry>
-            <entry id="c581e44b-bf04-75fc-dd1c-732ba0c4c9f9" name="Twin-linked Multilaser &amp; 2x Hellstrike Missiles" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="19104860-f722-f2ae-06ce-2a7af684f8fd" targetId="f8a78f8e-00e5-69d0-a33e-a4e530daaa3e" linkType="profile">
-                  <modifiers/>
-                </link>
-                <link id="3fc7b7be-b374-8afb-89d8-019060110294" targetId="8899a382-6e97-dfc4-af4c-750effbe8d0b" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
           </entries>
           <entryGroups>
             <entryGroup id="6b6ba1d2-7f84-2dfc-8574-1bbfc01816c2" name="or" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
               <entries/>
               <entryGroups>
-                <entryGroup id="c595b51e-9ead-ea59-6359-c8a85e5df330" name="choose" defaultEntryId="4b930d2d-1ca2-4b46-f5e1-5e653322d755" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="c595b51e-9ead-ea59-6359-c8a85e5df330" name="choose" defaultEntryId="4b930d2d-1ca2-4b46-f5e1-5e653322d755" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries>
                     <entry id="bf122f1c-8306-e20d-afd4-5c8094a6afa8" name="2x Multiple Rocket Pods" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                       <entries/>
@@ -7949,10 +7973,17 @@
                     </entry>
                   </entries>
                   <entryGroups/>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="aa358cdf-087a-1441-a54f-78b1d3076478" childId="2eaf7cc5-2f4d-6b7e-242b-c49a805f756a" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <links/>
                 </entryGroup>
-                <entryGroup id="ffd61061-9fa7-71f7-ab94-5ad2b53144ed" name="plus" defaultEntryId="40d06a9d-9535-a8ea-f0c2-96c8ebc08557" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="ffd61061-9fa7-71f7-ab94-5ad2b53144ed" name="plus" defaultEntryId="40d06a9d-9535-a8ea-f0c2-96c8ebc08557" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries>
                     <entry id="40d06a9d-9535-a8ea-f0c2-96c8ebc08557" name="Twin-linked Multilaser" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                       <entries/>
@@ -8019,7 +8050,14 @@
                     </entry>
                   </entries>
                   <entryGroups/>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="aa358cdf-087a-1441-a54f-78b1d3076478" childId="2eaf7cc5-2f4d-6b7e-242b-c49a805f756a" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <links/>
                 </entryGroup>
               </entryGroups>
@@ -8029,28 +8067,16 @@
           </entryGroups>
           <modifiers>
             <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition parentId="aa358cdf-087a-1441-a54f-78b1d3076478" childId="c581e44b-bf04-75fc-dd1c-732ba0c4c9f9" field="selections" type="equal to" value="0.0"/>
-                    <condition parentId="aa358cdf-087a-1441-a54f-78b1d3076478" childId="2eaf7cc5-2f4d-6b7e-242b-c49a805f756a" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition parentId="aa358cdf-087a-1441-a54f-78b1d3076478" childId="2eaf7cc5-2f4d-6b7e-242b-c49a805f756a" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
             </modifier>
             <modifier type="set" field="minSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition parentId="aa358cdf-087a-1441-a54f-78b1d3076478" childId="c581e44b-bf04-75fc-dd1c-732ba0c4c9f9" field="selections" type="equal to" value="0.0"/>
-                    <condition parentId="aa358cdf-087a-1441-a54f-78b1d3076478" childId="2eaf7cc5-2f4d-6b7e-242b-c49a805f756a" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition parentId="aa358cdf-087a-1441-a54f-78b1d3076478" childId="2eaf7cc5-2f4d-6b7e-242b-c49a805f756a" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
             </modifier>
           </modifiers>
           <links/>
@@ -8069,10 +8095,13 @@
         <link id="76aa9920-26d1-6162-6643-3b6ee8cdd984" targetId="9089f807-7d81-6208-1427-8c7982d513e9" linkType="rule">
           <modifiers/>
         </link>
-        <link id="1e9dbed3-470e-a170-2617-811e0ca8f917" targetId="eb278fe6-f70b-d58d-8d8d-192b68bd4798" linkType="profile">
+        <link id="1e9dbed3-470e-a170-2617-811e0ca8f917" targetId="42e6e8fa-e634-a65e-8cd3-b7edf6bb8cfb" linkType="profile">
           <modifiers/>
         </link>
         <link id="651537fd-c476-348e-1092-ca9ced0470c1" targetId="90311584-d42b-5056-1554-0c859a6db9ab" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="16e9fd5a-91e1-689b-e174-e328c05b948b" targetId="0b5b2a10-a863-3440-5074-4238d27797b5" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -8097,6 +8126,30 @@
       <profiles/>
       <links>
         <link id="eea18b00-c8c7-112e-cfb9-67bc1ff94508" targetId="e8762c74-c43b-c3fc-dc6b-9889c906c2ea" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0b5b2a10-a863-3440-5074-4238d27797b5" name="Fighter Ace" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Shield of Baal: Leviathan" page="44">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="b4d6c2e1-4448-7757-e796-aa833d772b43" targetId="0659c2f0-2ade-4c75-631f-ff484780df39" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4a5f80fd-c17b-2f7b-f1f1-a649e5bc1465" name="Hyper-aggressive Tendencies" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="325ce471-3a8c-d068-e8d7-0c56115e1e96" targetId="523af188-0da1-f037-1760-3a50a37f330d" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -8308,6 +8361,36 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="11ae12fb-c8db-594b-acf3-afea43a621e9" targetId="3b7aa1a1-3d1a-e956-5171-d57cf152cd2f" linkType="rule">
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="9d874bf6-4f44-437e-5978-ef80bb9d9426" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="ddbaf523-a689-e9f1-c378-91054ead1635" targetId="523af188-0da1-f037-1760-3a50a37f330d" linkType="rule">
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="4a5f80fd-c17b-2f7b-f1f1-a649e5bc1465" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="3a5b2713-65b3-767c-b22d-9fd085dbbec6" targetId="3baa3634-4934-5939-6602-fb14cabb7c0b" linkType="rule">
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="35681b96-b99b-b5a0-f3a8-76316309a65f" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
     <entry id="efbb4676-967d-1ea2-a880-e54906403312" name="Super-Heavy Flyer Rules" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -8370,48 +8453,23 @@
         </link>
       </links>
     </entry>
+    <entry id="35681b96-b99b-b5a0-f3a8-76316309a65f" name="Unstable Metabolic Reaction" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="8f968992-7b4b-7150-8a7b-4cd87f9e4d97" targetId="3baa3634-4934-5939-6602-fb14cabb7c0b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="f3aee269-2f69-f57e-eaea-6a91ac502357" name="Warlord" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Warhammer 40k rulebook" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="de7be3cf-95f0-a680-2c7c-52c79109abe0" name="Inquisitorial Experimental Detachment" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="30e851e0-6a31-1cd4-d4b9-cb4fdb88d0dc" name="Unstable Metabolic Reaction" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="3f068784-f300-04fa-4263-2d44b79c8be4" targetId="3baa3634-4934-5939-6602-fb14cabb7c0b" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="ea9f09b1-b538-fad0-717d-e43e91c8dc09" name="Anomalous Dermal Calcification" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="41051dc4-c74d-ba8f-a143-a3d3bc3a3eef" targetId="3b7aa1a1-3d1a-e956-5171-d57cf152cd2f" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="8dae6eb2-3382-ae91-6001-c8001e4d6dd8" name="Hyper-aggressive Tendencies" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="c1d08f2b-ff29-2a1f-8bf1-329128f867ac" targetId="523af188-0da1-f037-1760-3a50a37f330d" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
+        <entryGroup id="de7be3cf-95f0-a680-2c7c-52c79109abe0" name="Inquisitorial Experimental Detachment Defect" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
           <entryGroups/>
           <modifiers>
             <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -8427,7 +8485,17 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <links/>
+          <links>
+            <link id="7fe64fba-11a2-d874-b7c6-752b83ab947f" targetId="9d874bf6-4f44-437e-5978-ef80bb9d9426" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="b342fa09-6f9b-f8e0-87a1-ed8270077e23" targetId="4a5f80fd-c17b-2f7b-f1f1-a649e5bc1465" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="d8106625-4072-6fa8-2062-20b60c415b4b" targetId="35681b96-b99b-b5a0-f3a8-76316309a65f" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entryGroup>
         <entryGroup id="6be2e476-9381-52ac-9871-65f0d2ca589e" name="Preferred Enemy" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -8485,6 +8553,9 @@
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+        <link id="49eb28c2-1164-a56c-2035-3dac26e80c95" targetId="be35e109-ba91-4039-48ca-b84510f7b1cc" linkType="rule">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -8843,7 +8914,7 @@
     <rule id="c3c24c87-92a7-d6ee-ba91-d2e122d95920" name="Amphibious" hidden="false" book="Codex: Inquisition" page="0">
       <modifiers/>
     </rule>
-    <rule id="3b7aa1a1-3d1a-e956-5171-d57cf152cd2f" name="Anomalous Dermal Calcification" hidden="false" book="Imperial Armour IV 2nd Ed">
+    <rule id="3b7aa1a1-3d1a-e956-5171-d57cf152cd2f" name="Anomalous Dermal Calcification" hidden="true" book="Imperial Armour IV 2nd Ed" page="96">
       <modifiers/>
     </rule>
     <rule id="5317607a-3f17-ac41-76bc-3552cd4db4a2" name="Apocalyptic Barrage" hidden="false" book="IA Aeronautica" page="0">
@@ -8912,6 +8983,9 @@
     <rule id="1a39557d-f118-167d-1363-0d5ceefa789f" name="Feel No Pain" hidden="false" book="Warhammer 40k rulebook" page="35">
       <modifiers/>
     </rule>
+    <rule id="0659c2f0-2ade-4c75-631f-ff484780df39" name="Fighter Ace" hidden="false" book="Shield of Baal: Leviathan" page="44">
+      <modifiers/>
+    </rule>
     <rule id="cf9ea8d6-4e6b-d2a0-d6bd-5b14fe2ca976" name="Fire Modes - Point Defence, Sentry, Interceptor" hidden="false" book="Imperial Armour IV 2nd Ed" page="110">
       <modifiers/>
     </rule>
@@ -8936,7 +9010,7 @@
     <rule id="89e6cbe2-8b68-b1cf-c1cf-1b6741bf8309" name="Heat-seeker" hidden="false" book="IA3ed2" page="0">
       <modifiers/>
     </rule>
-    <rule id="523af188-0da1-f037-1760-3a50a37f330d" name="Hyper-aggressive Tendencies" hidden="false" book="Imperial Armour IV 2nd Ed">
+    <rule id="523af188-0da1-f037-1760-3a50a37f330d" name="Hyper-aggressive Tendencies" hidden="true" book="Imperial Armour IV 2nd Ed" page="96">
       <modifiers/>
     </rule>
     <rule id="852d2433-a276-7db9-d635-062c2691cb3e" name="Ideal Mission Commander" hidden="true" book="Warhammer 40k rulebook">
@@ -8970,6 +9044,9 @@
       <modifiers/>
     </rule>
     <rule id="aab4ea7f-c7fb-2899-8853-eb01de2b6d18" name="Look Out - Arghh!" hidden="false" book="Codex: Imperial Guard" page="31">
+      <modifiers/>
+    </rule>
+    <rule id="be35e109-ba91-4039-48ca-b84510f7b1cc" name="Lords of War" hidden="false" book="Imperial Armour IV 2nd Ed" page="95">
       <modifiers/>
     </rule>
     <rule id="baa9a165-bb2b-ce81-cbd8-8d3de8bef03b" name="Machine Destroyer" hidden="false" book="Acheron.pdf">
@@ -9158,7 +9235,7 @@
     <rule id="6512e3a4-7be5-d8dd-197d-52644bb130b6" name="Uncanny Reflexes" hidden="false" book="Codex: Inquisition">
       <modifiers/>
     </rule>
-    <rule id="3baa3634-4934-5939-6602-fb14cabb7c0b" name="Unstable Metabolic Reaction" hidden="false" book="Imperial Armour IV 2nd Ed">
+    <rule id="3baa3634-4934-5939-6602-fb14cabb7c0b" name="Unstable Metabolic Reaction" hidden="true" book="Imperial Armour IV 2nd Ed" page="96">
       <modifiers/>
     </rule>
     <rule id="9089f807-7d81-6208-1427-8c7982d513e9" name="Vector Dancer" hidden="false" book="FW 6th Ed Vehicle Updates" page="0">
@@ -9636,6 +9713,17 @@
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="66be2836-60ac-54a0-c832-e60a986a0efa" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f" name="D-99 Valkyrie" hidden="false" book="Imperial Armour IV 2nd Ed" page="104">
+      <characteristics>
+        <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
+        <characteristic characteristicId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" name="Front" value="12"/>
+        <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="12"/>
+        <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
+        <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="3"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Flyer, Hover, Transport"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="ea2042c0-9b5a-519d-9428-2b53ecc0afe5" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="D-99 Veteran" hidden="false" book="Imperial Armour IV 2nd Ed" page="100">
       <characteristics>
         <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
@@ -9693,6 +9781,17 @@
         <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="2"/>
         <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="7"/>
         <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="42e6e8fa-e634-a65e-8cd3-b7edf6bb8cfb" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f" name="D-99 Vulture Gunship" hidden="false" book="Imperial Armour IV 2nd Ed" page="108">
+      <characteristics>
+        <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
+        <characteristic characteristicId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" name="Front" value="12"/>
+        <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="12"/>
+        <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
+        <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="3"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Flyer, Hover"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -10878,9 +10977,9 @@
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="66be2836-60ac-54a0-c832-e60a986a0efa" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f" name="Valkyrie" hidden="false" book="Imperial Armour IV 2nd Ed" page="104">
+    <profile id="3e4b7816-ac34-df1d-48f8-7dfdc252b2b0" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f" name="Valkyrie" hidden="false" book="Codex: Inquisition" page="0">
       <characteristics>
-        <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
+        <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
         <characteristic characteristicId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" name="Front" value="12"/>
         <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="12"/>
         <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
@@ -10903,17 +11002,6 @@
     <profile id="da2ab83a-4eca-7ee2-0a6a-372876704dfe" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Vox Caster" hidden="false" book="Codex: Imperial Guard" page="71">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="May re-roll failed Orders Ld Test if sender &amp; receiver have Vox-Casters"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="eb278fe6-f70b-d58d-8d8d-192b68bd4798" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f" name="Vulture Gunship" hidden="false" book="Imperial Armour IV 2nd Ed" page="108">
-      <characteristics>
-        <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
-        <characteristic characteristicId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" name="Front" value="12"/>
-        <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="12"/>
-        <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
-        <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="3"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Flyer, Hover"/>
       </characteristics>
       <modifiers/>
     </profile>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eec64b43-79c5-6f0b-c668-cdb80cc64efb" revision="25" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.14b" name="Astra Militarum: IA05 - Death Korps of Krieg Siege Regiment (2013 pdf)" authorName="k" authorUrl="http://catalogue.randomhit.org/viewtopic.php?f=5&amp;t=253" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eec64b43-79c5-6f0b-c668-cdb80cc64efb" revision="28" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Astra Militarum: IA05 - Death Korps of Krieg Siege Regiment (2013 pdf)" authorName="k" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="6997712b-ca70-936b-71ed-4877e05f2546" name="Cerastus Knight-Acheron" points="415.0" categoryId="c888f08a-6cea-4a01-8126-d374a9231554" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Acheron.pdf">
       <entries>
@@ -5578,6 +5578,9 @@
         <link id="ef122424-59e7-44fe-b38b-6aace55cb8fc" targetId="381bb905-a0f2-f66b-13ee-74bbf271a5cf" linkType="rule">
           <modifiers/>
         </link>
+        <link id="882a9dd3-2dfb-2d6f-d2e4-9c4521ce6505" targetId="0b5b2a10-a863-3440-5074-4238d27797b5" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="c120dc8b-f8ba-9e3f-9a75-e7e8b46a0ff0" name="Battle Tank" points="150.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="FW dkksiegelist PDF" page="0">
@@ -6488,6 +6491,18 @@
           <modifiers/>
         </link>
         <link id="bc31a1ed-5ad7-1c8c-f7de-1a8703d9785c" targetId="dc612ace-919e-c7ac-d71f-6c8bf810d682" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0b5b2a10-a863-3440-5074-4238d27797b5" name="Fighter Ace" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Shield of Baal: Leviathan" page="44">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="d4d0bb14-54e2-d1a8-48d9-1be6e280c622" targetId="0659c2f0-2ade-4c75-631f-ff484780df39" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -7682,6 +7697,9 @@
         <link id="25b433a2-44ce-c681-5e6a-71a03a5e1c95" targetId="e7631a3f-1fbc-f24c-de42-bb7ace11f322" linkType="rule">
           <modifiers/>
         </link>
+        <link id="d23cfe79-848a-91bb-908e-bb48d46f60ef" targetId="0b5b2a10-a863-3440-5074-4238d27797b5" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="4fa0e3d3-9802-cb49-cffc-78f1e8d6be8b" name="Macharius" points="325.0" categoryId="c888f08a-6cea-4a01-8126-d374a9231554" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Imperial Armour Apocalypse 2013" page="32">
@@ -7792,9 +7810,6 @@
       <profiles/>
       <links>
         <link id="c1bddf7b-e40d-cce4-90f3-f6b6c9f57c3c" targetId="411c083c-4d9e-7d72-069f-4b897655e970" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="24beb2e4-86fa-eeec-adf4-cd61c2dab40e" targetId="c38d973d-5a7f-c5ff-979e-1f3c8bac5efc" linkType="entry">
           <modifiers/>
         </link>
         <link id="92bce1d0-ad12-c586-bf69-15815255b870" targetId="e96ada9a-b9c4-b0ca-f583-40b8533c03a7" linkType="entry">
@@ -8065,7 +8080,7 @@
         </link>
       </links>
     </entry>
-    <entry id="1040b6f2-5f18-2b34-6a98-dfabfee8ca39" name="Malcador Defender" points="37.0" categoryId="c888f08a-6cea-4a01-8126-d374a9231554" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Imperial Armour Apocalypse 2013" page="140">
+    <entry id="1040b6f2-5f18-2b34-6a98-dfabfee8ca39" name="Malcador Defender" points="285.0" categoryId="c888f08a-6cea-4a01-8126-d374a9231554" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Imperial Armour Apocalypse 2013" page="37">
       <entries>
         <entry id="fd1a5ed2-b72e-1920-67ef-d23f294a90fc" name="Upper Hull-mounted Heavy Bolters" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -8385,6 +8400,9 @@
         <link id="481b22b9-11ea-867a-8723-e9159b16e7f5" targetId="efbb4676-967d-1ea2-a880-e54906403312" linkType="entry">
           <modifiers/>
         </link>
+        <link id="ee257469-151c-4745-5328-c6658b25c042" targetId="0b5b2a10-a863-3440-5074-4238d27797b5" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="d47757c9-f2bb-286f-de72-40f96e161326" name="Marauder Destroyer" points="425.0" categoryId="c888f08a-6cea-4a01-8126-d374a9231554" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Imperial Armour Apocalypse 2013" page="48">
@@ -8471,6 +8489,9 @@
           <modifiers/>
         </link>
         <link id="8685c7bd-153f-8cc8-038f-af5a07aa6377" targetId="7c5d7eee-a46c-d4d9-8552-8bdee40fe5bc" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="080aa7e9-f256-8cf5-c05e-7b7bccbf5406" targetId="0b5b2a10-a863-3440-5074-4238d27797b5" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -8995,6 +9016,75 @@
         </link>
       </links>
     </entry>
+    <entry id="efbb4676-967d-1ea2-a880-e54906403312" name="Show Super-Heavy Flyer Rules" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="05e3dca6-d09b-35f3-bb71-6f97ffaffc3c" targetId="179e20b2-b985-74fe-b514-8f6da2e8dea3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f6518de8-3886-8016-8e9a-af3660d8c761" targetId="e4675f80-82d0-040f-4569-d027a34d5fed" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e96ada9a-b9c4-b0ca-f583-40b8533c03a7" name="Show Super-Heavy Vehicle Rules" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="de2b0b0b-fc33-0828-bdc0-acace8defc01" targetId="179e20b2-b985-74fe-b514-8f6da2e8dea3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="874a4612-a9ba-1308-6890-2266f2189396" targetId="e4675f80-82d0-040f-4569-d027a34d5fed" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="148ab8ff-effb-b3e0-eb0a-a2821fcaeadd" targetId="16f1ecd6-226c-37d6-8990-b0112bb8330a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1cb038fb-f28f-3d56-a149-b384693a0d60" targetId="2b7bd030-9073-b18d-c65c-ef5ba26ca7ee" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5830ebc0-4c8c-e659-eb4e-3e3eb091cab3" name="Show Super-Heavy Walker Rules" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="1248d289-7bd1-0a0f-899e-da61df8c85bc" targetId="179e20b2-b985-74fe-b514-8f6da2e8dea3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2e915190-78a2-707f-9b5d-b8c690d379c3" targetId="4f3e5d21-7348-f25b-ae11-dddb6da51267" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c3a44581-10f2-c62f-49b4-8b65cd9b2f3d" targetId="e4675f80-82d0-040f-4569-d027a34d5fed" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d6a6df26-6d40-0a26-ba6d-9bdedf14cd26" targetId="16f1ecd6-226c-37d6-8990-b0112bb8330a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a7b5ca3b-6951-c81a-1936-2b338916f393" targetId="e45bac6e-634e-e66e-4394-49d88b42f182" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f9940fab-a933-e9c7-0a71-7640d0075d7e" targetId="b9244de6-5d3b-4600-e67d-25ea2ee62d90" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8786b740-6057-8269-82c5-38f30830bc3e" targetId="deb5bfb5-551b-6485-032d-726b3380d365" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1675a25c-8b0e-9124-cd3b-9a61e4c01983" targetId="702de286-c480-b115-bf5e-e46c5761e747" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="c23dbe20-6e87-1b1e-462e-4bd050161057" name="Smoke Launchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -9259,75 +9349,6 @@
         </link>
       </links>
     </entry>
-    <entry id="efbb4676-967d-1ea2-a880-e54906403312" name="Super-Heavy Flyer Rules" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="05e3dca6-d09b-35f3-bb71-6f97ffaffc3c" targetId="179e20b2-b985-74fe-b514-8f6da2e8dea3" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f6518de8-3886-8016-8e9a-af3660d8c761" targetId="e4675f80-82d0-040f-4569-d027a34d5fed" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="e96ada9a-b9c4-b0ca-f583-40b8533c03a7" name="Super-Heavy Vehicle Rules" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="de2b0b0b-fc33-0828-bdc0-acace8defc01" targetId="179e20b2-b985-74fe-b514-8f6da2e8dea3" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="874a4612-a9ba-1308-6890-2266f2189396" targetId="e4675f80-82d0-040f-4569-d027a34d5fed" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="148ab8ff-effb-b3e0-eb0a-a2821fcaeadd" targetId="16f1ecd6-226c-37d6-8990-b0112bb8330a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1cb038fb-f28f-3d56-a149-b384693a0d60" targetId="2b7bd030-9073-b18d-c65c-ef5ba26ca7ee" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="5830ebc0-4c8c-e659-eb4e-3e3eb091cab3" name="Super-Heavy Walker Rules" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="1248d289-7bd1-0a0f-899e-da61df8c85bc" targetId="179e20b2-b985-74fe-b514-8f6da2e8dea3" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2e915190-78a2-707f-9b5d-b8c690d379c3" targetId="4f3e5d21-7348-f25b-ae11-dddb6da51267" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c3a44581-10f2-c62f-49b4-8b65cd9b2f3d" targetId="e4675f80-82d0-040f-4569-d027a34d5fed" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d6a6df26-6d40-0a26-ba6d-9bdedf14cd26" targetId="16f1ecd6-226c-37d6-8990-b0112bb8330a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a7b5ca3b-6951-c81a-1936-2b338916f393" targetId="e45bac6e-634e-e66e-4394-49d88b42f182" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f9940fab-a933-e9c7-0a71-7640d0075d7e" targetId="b9244de6-5d3b-4600-e67d-25ea2ee62d90" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="8786b740-6057-8269-82c5-38f30830bc3e" targetId="deb5bfb5-551b-6485-032d-726b3380d365" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1675a25c-8b0e-9124-cd3b-9a61e4c01983" targetId="702de286-c480-b115-bf5e-e46c5761e747" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="18f9bf53-40b9-3e6f-3534-dd80d170d07c" name="Targeters" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -9567,6 +9588,9 @@
           <modifiers/>
         </link>
         <link id="95ff0738-9f4a-991b-b447-052d914ebb93" targetId="381bb905-a0f2-f66b-13ee-74bbf271a5cf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="87774bf3-ec76-16de-517d-907f6da4b4c2" targetId="0b5b2a10-a863-3440-5074-4238d27797b5" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -10714,7 +10738,7 @@
               <rules/>
               <profiles/>
               <links>
-                <link id="b57b37f8-7625-70e7-8226-f0a75b529431" targetId="86ab4a73-4680-4c6a-007d-3c6823bd2599" linkType="profile">
+                <link id="b57b37f8-7625-70e7-8226-f0a75b529431" targetId="32438a33-c61d-3fa6-ee32-a4f311b62f0e" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
@@ -11305,6 +11329,9 @@
       <modifiers/>
     </rule>
     <rule id="f6267500-02e3-86f5-836c-fba65c37186f" name="Feel No Pain (6+)" hidden="false" book="FW dkksiegelist PDF" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="0659c2f0-2ade-4c75-631f-ff484780df39" name="Fighter Ace" hidden="false" book="Shield of Baal: Leviathan" page="44">
       <modifiers/>
     </rule>
     <rule id="af3d4111-3268-27d1-8a5d-b6aaeb41610e" name="First Charge" hidden="false" book="FW dkksiegelist PDF" page="0">

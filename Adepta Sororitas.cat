@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="818a0a0f-43c3-6587-c690-9b14d0a7ba96" revision="22" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.14b" name="Adepta Sororitas: Codex (2013)" authorName="Millicant" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="818a0a0f-43c3-6587-c690-9b14d0a7ba96" revision="24" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Adepta Sororitas: Codex (2013)" authorName="Millicant" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="33ba44a0-b89a-5d9f-e45f-aa103294c01b" name="Aquila Lander (FW)" points="110.0" categoryId="c274d0b0-5866-44bc-9810-91c136ae7438" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="IA: Aeronautica" page="13">
       <entries/>
@@ -465,6 +465,18 @@
             </link>
           </links>
         </entry>
+        <entry id="acd26e03-6afa-54a3-b34b-c51b0eacc379" name="Boltgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c5b9e862-79e0-89c6-996b-c5c8119f0df9" targetId="ee7d1aa2-d2bf-1e57-945a-b4c9d3df28ad" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
       </entries>
       <entryGroups>
         <entryGroup id="c9ff86e5-6ff2-a60e-e223-423e73123289" name="One Battle Sister may take:" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -683,7 +695,11 @@
                   <modifiers/>
                   <rules/>
                   <profiles/>
-                  <links/>
+                  <links>
+                    <link id="a608-9a29-b15e-2d3a" targetId="f84c-b27b-bb54-dc5a" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
                 </entry>
                 <entry id="8af0af9d-b783-b73f-10f8-dbeaa952bd09" name="Power Maul" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                   <entries/>
@@ -691,7 +707,11 @@
                   <modifiers/>
                   <rules/>
                   <profiles/>
-                  <links/>
+                  <links>
+                    <link id="d291-6d42-f93d-cf6b" targetId="ac4d-60e2-4d4a-f610" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
                 </entry>
                 <entry id="e3850039-4331-5acd-a2f4-4229e7b20cd1" name="Power Sword" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                   <entries/>
@@ -699,7 +719,11 @@
                   <modifiers/>
                   <rules/>
                   <profiles/>
-                  <links/>
+                  <links>
+                    <link id="028a-ce9f-fb8e-0579" targetId="2437-6d66-6ed4-e8d0" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
                 </entry>
                 <entry id="c8abcacb-a593-6840-858c-d29a17a2bc7f" name="Power Axe" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                   <entries/>
@@ -707,7 +731,11 @@
                   <modifiers/>
                   <rules/>
                   <profiles/>
-                  <links/>
+                  <links>
+                    <link id="803e-2882-ed3f-9195" targetId="c802-bb5d-2684-ad8a" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
                 </entry>
                 <entry id="acd89ab8-c881-2c85-89fb-f5435cd381e1" name="Inferno Pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
@@ -848,7 +876,11 @@
                   <modifiers/>
                   <rules/>
                   <profiles/>
-                  <links/>
+                  <links>
+                    <link id="eb76-d04d-f793-bd66" targetId="f84c-b27b-bb54-dc5a" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
                 </entry>
                 <entry id="be533d96-3f87-6ec9-e02b-3669c15b8e94" name="Power Maul" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                   <entries/>
@@ -856,7 +888,11 @@
                   <modifiers/>
                   <rules/>
                   <profiles/>
-                  <links/>
+                  <links>
+                    <link id="a60a-cfdc-1924-c167" targetId="ac4d-60e2-4d4a-f610" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
                 </entry>
                 <entry id="52494c20-ee01-08aa-3592-d31951df2360" name="Power Sword" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                   <entries/>
@@ -864,7 +900,11 @@
                   <modifiers/>
                   <rules/>
                   <profiles/>
-                  <links/>
+                  <links>
+                    <link id="43c3-f745-9efb-bfa5" targetId="2437-6d66-6ed4-e8d0" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
                 </entry>
                 <entry id="de4a6eb3-6db2-267c-919c-52ac850ad5fd" name="Power Axe" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                   <entries/>
@@ -872,7 +912,11 @@
                   <modifiers/>
                   <rules/>
                   <profiles/>
-                  <links/>
+                  <links>
+                    <link id="d177-e002-d5fe-1478" targetId="c802-bb5d-2684-ad8a" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
                 </entry>
                 <entry id="de13e622-a7b5-48f1-f494-3eef63e1cbe5" name="Inferno Pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
@@ -1632,6 +1676,9 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
           <modifiers/>
         </link>
         <link id="47d45190-39af-a4b8-31c4-b8cde117daa3" targetId="77b06f33-7137-70c7-90fb-cea513772061" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="29ba-3ac0-4a83-f6e2" targetId="fea8-fdbc-edb5-d5d4" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2953,7 +3000,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="5aa1-d1e4-ffc5-07aa" targetId="c54bd388-cced-2d00-6dad-e3a016725345" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="451c2673-03fd-caf7-460c-ca3477c3f8ff" name="Combi-Flamer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -2961,7 +3012,14 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="0929-7147-3c6f-d8cd" targetId="ee7d1aa2-d2bf-1e57-945a-b4c9d3df28ad" linkType="profile">
+                          <modifiers/>
+                        </link>
+                        <link id="d607-2fd3-5485-8108" targetId="c344c881-cadc-969e-e73c-3a63eb59158f" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="246991a8-477e-9b9c-1deb-0a232909797d" name="Combi-Melta" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -2969,7 +3027,14 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="18a5-227e-0060-cd3f" targetId="ee7d1aa2-d2bf-1e57-945a-b4c9d3df28ad" linkType="profile">
+                          <modifiers/>
+                        </link>
+                        <link id="dccb-a3a6-a238-0328" targetId="00746dcd-90f5-5a95-ec7d-3f3d06161d4f" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="a6ebb476-8f04-a117-d22d-99733f15a71b" name="Combi-Plasma" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -2977,7 +3042,14 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="c156-e2e8-4957-1f82" targetId="ee7d1aa2-d2bf-1e57-945a-b4c9d3df28ad" linkType="profile">
+                          <modifiers/>
+                        </link>
+                        <link id="f3bb-134a-30ff-ad8b" targetId="ac549254-1eea-2908-e397-16b725919ead" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="4c746bab-080c-1437-45d9-f208114dcdff" name="Plasma Pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -2985,7 +3057,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="3ab5-93aa-eb90-d760" targetId="f89e54f0-a33d-0168-4d19-c16fa9deaf91" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="5fd3290e-26b5-ee0c-2b50-9e80997b5ffc" name="Bolt Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                       <entries/>
@@ -2993,7 +3069,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="f1b5-7d7e-406b-dd5c" targetId="55f9eaa8-1da1-9fd9-40f6-7631ecca6b7b" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="202c6d45-cab8-d66c-3ee7-475f7e0d6a56" name="Chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -3001,7 +3081,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="1fa2-b4fb-034c-e254" targetId="f84c-b27b-bb54-dc5a" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="9f517ec4-6964-1f81-d681-9d35c14cb88f" name="Power Maul" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -3009,7 +3093,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="fbf6-1fbd-6844-85da" targetId="ac4d-60e2-4d4a-f610" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="d51fddb4-bc95-4e51-462a-9fcb95952431" name="Power Sword" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -3017,7 +3105,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="e703-5a70-7c30-d5bd" targetId="2437-6d66-6ed4-e8d0" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="67d7f4de-76b2-b04b-99ae-c24cd6969198" name="Power Axe" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -3025,7 +3117,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="ce89-99d2-b23f-2df6" targetId="c802-bb5d-2684-ad8a" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                   </entries>
                   <entryGroups/>
@@ -3044,7 +3140,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="df3d-08cd-6015-19d9" targetId="c54bd388-cced-2d00-6dad-e3a016725345" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="545cd9bd-3da1-41c3-bf41-959a22254e6c" name="Combi-Flamer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -3052,7 +3152,14 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="b8c6-955c-6322-c190" targetId="ee7d1aa2-d2bf-1e57-945a-b4c9d3df28ad" linkType="profile">
+                          <modifiers/>
+                        </link>
+                        <link id="0ec9-cea1-88c6-d998" targetId="c344c881-cadc-969e-e73c-3a63eb59158f" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="1434bb09-07ff-10f9-4e97-6fabdbba32fc" name="Combi-Melta" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -3060,7 +3167,14 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="dce9-6ae0-7014-8c9a" targetId="ee7d1aa2-d2bf-1e57-945a-b4c9d3df28ad" linkType="profile">
+                          <modifiers/>
+                        </link>
+                        <link id="68f3-eb51-5cc0-f8a3" targetId="00746dcd-90f5-5a95-ec7d-3f3d06161d4f" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="fa32ad7e-6f1b-4123-2f91-87b4007eb68c" name="Combi-Plasma" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -3068,7 +3182,14 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="1323-267d-8f64-350e" targetId="ee7d1aa2-d2bf-1e57-945a-b4c9d3df28ad" linkType="profile">
+                          <modifiers/>
+                        </link>
+                        <link id="24ed-3c15-6b93-dd48" targetId="ac549254-1eea-2908-e397-16b725919ead" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="6e3fa559-92fb-ca6e-792f-4de9043cd181" name="Plasma Pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -3076,7 +3197,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="3115-ac51-40af-4245" targetId="f89e54f0-a33d-0168-4d19-c16fa9deaf91" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="7ac08f4e-a9c5-80c8-5948-96b63ca7ad6d" name="Boltgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                       <entries/>
@@ -3084,7 +3209,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="fbb2-6bed-c933-6007" targetId="ee7d1aa2-d2bf-1e57-945a-b4c9d3df28ad" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="b5f08a75-e4b8-c266-0f29-67efab93dad4" name="Chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -3092,7 +3221,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="0de7-0593-46a5-f6e2" targetId="f84c-b27b-bb54-dc5a" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="e0385f30-5a2a-3352-3b2a-a2f26e3033f6" name="Power Axe" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -3100,7 +3233,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="d819-6a4e-0005-e84e" targetId="c802-bb5d-2684-ad8a" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="b78eb317-747f-05f1-0350-0bd75142ec9d" name="Power Maul" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -3108,7 +3245,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="2ca4-9e19-b4eb-78c4" targetId="ac4d-60e2-4d4a-f610" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="7fc879e1-6623-5090-8cdd-2d990a5e4ee2" name="Power Sword" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -3116,7 +3257,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="27d0-0287-6c54-236a" targetId="2437-6d66-6ed4-e8d0" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="3b429bca-74fb-978e-fb63-9dd8922c477f" name="Flamer" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -3124,7 +3269,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="74d4-56af-3262-4258" targetId="c344c881-cadc-969e-e73c-3a63eb59158f" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="5a66c363-8943-fae6-ea76-b8963267707d" name="Meltagun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -3132,7 +3281,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="c6ef-eb10-5c4d-d5de" targetId="00746dcd-90f5-5a95-ec7d-3f3d06161d4f" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="77b2b6e2-7f38-470b-abab-4f66ddfceb76" name="Heavy Bolter" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -3140,7 +3293,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="877b-81b4-7bd7-7d9d" targetId="35e0ddae-7791-4967-406a-f9412137947a" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="c7c771a5-cd12-df2b-402b-93d6b174910b" name="Heavy Flamer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -3148,7 +3305,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="8223-6b01-65e5-c263" targetId="1d38912b-9f4e-e225-bf62-aba8dca7de52" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                     <entry id="e8faa551-2cf5-e8ea-1a40-18e008e0e61c" name="Multi-Melta" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
                       <entries/>
@@ -3156,7 +3317,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <modifiers/>
                       <rules/>
                       <profiles/>
-                      <links/>
+                      <links>
+                        <link id="aa27-7c49-1aef-2f85" targetId="ae272b95-6b20-85e0-0bbf-4f60c6f9ba31" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
                     </entry>
                   </entries>
                   <entryGroups/>
@@ -4222,7 +4387,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="9af0deb9-e073-3001-d17a-f709887f10bf" targetId="c54bd388-cced-2d00-6dad-e3a016725345" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="282ec572-f7c4-2cfb-297c-e4d3cbeed051" name="Combi-Flamer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
               <entries/>
@@ -4230,7 +4399,14 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="a5a07b52-ecf6-4c5c-7fd1-de5dd118d7f3" targetId="ee7d1aa2-d2bf-1e57-945a-b4c9d3df28ad" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="588a49cb-c922-f709-1fda-418d1cb9a04d" targetId="c344c881-cadc-969e-e73c-3a63eb59158f" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="bed4ede1-2612-0b3e-62b3-958c12b71c76" name="Combi-Melta" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
               <entries/>
@@ -4238,7 +4414,14 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="94caa8f9-fe08-544a-afe1-dde87c2b8d0b" targetId="ee7d1aa2-d2bf-1e57-945a-b4c9d3df28ad" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="6ead31e9-2a18-1432-608a-0f1d3dd11856" targetId="00746dcd-90f5-5a95-ec7d-3f3d06161d4f" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="eed8be50-8bb9-4d48-8ff6-237de4961772" name="Combi-Plasma" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
               <entries/>
@@ -4246,7 +4429,14 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="aad77eb7-7cb0-fa42-8083-e1426704c9ca" targetId="ee7d1aa2-d2bf-1e57-945a-b4c9d3df28ad" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="6406a2b5-8b2c-e1a5-eff8-7848b958c67a" targetId="ac549254-1eea-2908-e397-16b725919ead" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="1d069f29-1ca1-1334-8f67-6fe092069ff3" name="Plasma Pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
               <entries/>
@@ -4254,7 +4444,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="639574c6-be63-1204-1682-1b19155336cc" targetId="f89e54f0-a33d-0168-4d19-c16fa9deaf91" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="7a68215f-0f81-4c8d-0566-7a58cb5a9412" name="Bolt Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
@@ -4262,7 +4456,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="dd1e35b1-7a7b-b661-28e0-6485607b4be5" targetId="55f9eaa8-1da1-9fd9-40f6-7631ecca6b7b" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="047a68b0-881f-2262-c477-601b4aed4681" name="Chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
               <entries/>
@@ -4313,7 +4511,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="a0d6a3bb-abda-7190-0b70-5420155fbd04" targetId="c54bd388-cced-2d00-6dad-e3a016725345" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="5c1d373d-97db-3d13-afca-94f8d073e4e2" name="Combi-Flamer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
               <entries/>
@@ -4321,7 +4523,14 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="5535e0f0-1ca0-875f-cceb-b16956c76a13" targetId="ee7d1aa2-d2bf-1e57-945a-b4c9d3df28ad" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="da0c06f7-6dab-452d-c616-5cb565225f98" targetId="c344c881-cadc-969e-e73c-3a63eb59158f" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="3e8a72da-ee4b-62f9-c2b5-8c706e0712fe" name="Combi-Melta" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
               <entries/>
@@ -4329,7 +4538,14 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="80e7293b-8bd2-5e56-2977-ab0d3657e443" targetId="ee7d1aa2-d2bf-1e57-945a-b4c9d3df28ad" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="b79ea446-884a-6a2f-ad69-7daccac3ce0c" targetId="00746dcd-90f5-5a95-ec7d-3f3d06161d4f" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="ebf0a8d3-a8f5-15b9-f474-5bbb61fe063a" name="Combi-Plasma" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
               <entries/>
@@ -4337,7 +4553,14 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="8859e67f-14f3-6425-9de0-f7451927bda4" targetId="ee7d1aa2-d2bf-1e57-945a-b4c9d3df28ad" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="164302fa-dc9a-c096-471d-f2c4827a452d" targetId="ac549254-1eea-2908-e397-16b725919ead" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="8f2a0d60-1b9c-ed46-bfbf-b222e3c213a0" name="Plasma Pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
               <entries/>
@@ -4345,7 +4568,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="91b0da6a-8449-04e2-fdaf-d45ffcdced54" targetId="f89e54f0-a33d-0168-4d19-c16fa9deaf91" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="37846399-3b02-a20a-0ec3-c26cea7bce78" name="Boltgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
               <entries/>
@@ -4353,7 +4580,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="2801ebf4-902b-ac9a-032b-2bd607103842" targetId="ee7d1aa2-d2bf-1e57-945a-b4c9d3df28ad" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="edc6edff-e595-9259-1dec-f3eaf210b30f" name="Chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
               <entries/>
@@ -4408,7 +4639,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="d7b7b1e7-d6c9-2f36-2632-830df48ff41c" targetId="c344c881-cadc-969e-e73c-3a63eb59158f" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
         <entry id="dfc13567-a8ef-cf45-3424-c54131156f75" name="Meltagun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
           <entries/>
@@ -4416,7 +4651,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="5f6f40e7-21e2-6b7e-8751-7f90c3b13b3f" targetId="00746dcd-90f5-5a95-ec7d-3f3d06161d4f" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
         <entry id="bd3bfde3-b7ad-881a-6d4d-f7a125456b1b" name="Storm Bolter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
           <entries/>
@@ -4424,7 +4663,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="c98bdb22-f8ab-e862-c8c6-995991897b4b" targetId="c54bd388-cced-2d00-6dad-e3a016725345" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups/>
@@ -4447,7 +4690,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
           <modifiers/>
           <rules/>
           <profiles/>
-          <links/>
+          <links>
+            <link id="5bc0ec4d-c20f-3d20-76db-a3ba284ece15" targetId="c54bd388-cced-2d00-6dad-e3a016725345" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
         <entry id="abfcd08b-4a88-8962-c338-f488a186e770" name="Extra Amour" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
           <entries/>
@@ -4523,6 +4770,9 @@ The Righteousness of the Emperor: The model and his unit re-roll failed rolls To
       <modifiers/>
     </rule>
     <rule id="c5ff374e-4654-c160-e331-24ac42d636ea" name="Zealot" hidden="false" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="fea8-fdbc-edb5-d5d4" name="Scout" hidden="false">
       <modifiers/>
     </rule>
   </sharedRules>
@@ -5022,6 +5272,51 @@ The Righteousness of the Emperor: The model and his unit re-roll failed rolls To
         <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="2"/>
         <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="9"/>
         <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="3+"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f84c-b27b-bb54-dc5a" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Chainsword" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="User"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="2437-6d66-6ed4-e8d0" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Power Sword" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="User"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ac4d-60e2-4d4a-f610" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Power Maul" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+2"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Concussive"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c802-bb5d-2684-ad8a" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Power Axe" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+1"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Unwieldy"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="84f4-14f9-736e-d1c8" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Power Lance" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+1/User"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3/4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
       </characteristics>
       <modifiers/>
     </profile>
